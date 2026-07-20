@@ -2,35 +2,35 @@
 
 :root {
   --font-sans: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  
+  /**/
   /* Color Palette - Premium Warm/Shared Hearts Theme */
   --primary-gradient: linear-gradient(135deg, #7c3aed 0%, #ec4899 100%);
   --secondary-gradient: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
   --success-gradient: linear-gradient(135deg, #10b981 0%, #059669 100%);
   --warning-gradient: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-  
+
   --bg-color: #0b0f19;
   --card-bg: rgba(17, 24, 39, 0.7);
   --card-border: rgba(255, 255, 255, 0.08);
-  
+
   --text-primary: #f3f4f6;
   --text-secondary: #9ca3af;
   --text-muted: #6b7280;
-  
+
   --accent-pink: #ec4899;
   --accent-violet: #8b5cf6;
   --accent-emerald: #10b981;
-  
+
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
   --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
   --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.35);
   --shadow-glow: 0 0 20px rgba(124, 58, 237, 0.25);
-  
+
   --radius-sm: 8px;
   --radius-md: 16px;
   --radius-lg: 24px;
   --radius-xl: 32px;
-  
+
   --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -107,9 +107,11 @@ body {
   0% {
     transform: translate(0, 0) scale(1);
   }
+
   50% {
     transform: translate(5%, 5%) scale(1.1);
   }
+
   100% {
     transform: translate(-5%, -2%) scale(0.9);
   }
@@ -190,8 +192,13 @@ body {
 }
 
 @keyframes heartbeat {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.15); }
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.15);
+  }
 }
 
 .search-box {
@@ -230,7 +237,7 @@ body {
   transition: color var(--transition-fast);
 }
 
-.search-input:focus + .search-icon {
+.search-input:focus+.search-icon {
   color: var(--accent-pink);
 }
 
@@ -291,8 +298,15 @@ body {
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
 /* Summary Statistics Cards */
@@ -319,7 +333,7 @@ body {
   right: 0;
   width: 80px;
   height: 80px;
-  background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 70%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 70%);
   border-radius: 50%;
 }
 
@@ -606,64 +620,65 @@ body {
   .app-container {
     padding: 20px 16px 30px;
   }
-  
+
   .header-content {
     padding: 0 16px;
   }
-  
+
   .logo {
     font-size: 1.3rem;
   }
-  
+
   .logo-heart {
     font-size: 1.4rem;
   }
-  
+
   .search-box {
-    width: 180px; /* Thử co ngắn search box lại trên tablet */
+    width: 180px;
+    /* Thử co ngắn search box lại trên tablet */
   }
-  
+
   .search-input {
     height: 38px;
     font-size: 16px;
     padding-left: 38px;
   }
-  
+
   .search-icon {
     left: 12px;
   }
-  
+
   .hero-section {
     padding: 24px 16px;
     margin-bottom: 24px;
   }
-  
+
   .hero-title {
     font-size: 2rem;
   }
-  
+
   .hero-desc {
     font-size: 1rem;
   }
-  
+
   .stats-container {
     grid-template-columns: 1fr;
     gap: 14px;
     margin-bottom: 30px;
   }
-  
+
   .stat-card {
     padding: 16px 20px;
   }
-  
+
   .stat-value {
     font-size: 1.5rem;
   }
-  
+
   .desktop-table-container {
     display: none;
   }
-  
+
   .mobile-cards-container {
     display: flex;
   }
@@ -676,15 +691,16 @@ body {
     padding: 12px 16px;
     gap: 10px;
   }
-  
+
   .header-glass {
     height: auto;
   }
-  
+
   .app-container {
-    padding-top: 20px; /* Tăng padding-top do header 2 dòng */
+    padding-top: 20px;
+    /* Tăng padding-top do header 2 dòng */
   }
-  
+
   .search-box {
     width: 100%;
   }
@@ -774,4 +790,3 @@ body {
     display: flex;
   }
 }
-
