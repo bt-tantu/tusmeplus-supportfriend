@@ -116,6 +116,22 @@ function App() {
     );
   };
 
+  // Tự động cuộn xuống danh sách khi focus vào thanh tìm kiếm
+  const handleSearchFocus = () => {
+    const listElement = document.querySelector('.data-display-wrapper');
+    if (listElement) {
+      const headerElement = document.querySelector('.header-glass');
+      const headerHeight = headerElement ? headerElement.offsetHeight : 70;
+      const elementPosition = listElement.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - headerHeight - 16; // chừa 16px khoảng cách
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <>
       {/* Background Animated Spheres */}
@@ -153,6 +169,7 @@ function App() {
               placeholder="Tìm tên không dấu, số tiền..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
+              onFocus={handleSearchFocus}
             />
             {searchQuery && (
               <button 
