@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-07-20T16:49:04.465Z",
-  "totalAmount": 18200000,
-  "totalContributors": 45,
+  "updatedAt": "2026-08-17T14:04:26.637Z",
+  "totalAmount": 17900000,
+  "totalContributors": 44,
   "contributors": [
     {
       "stt": 1,
@@ -342,10 +342,10 @@
     {
       "stt": 43,
       "name": "Trần Thị Thanh Trúc",
-      "amount": 300000,
-      "rawAmount": 300,
-      "status": "active",
-      "note": ""
+      "amount": null,
+      "rawAmount": "Đã chuyển trả",
+      "status": "refunded",
+      "note": "Đã chuyển trả"
     },
     {
       "stt": 44,
