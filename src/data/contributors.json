@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-17T14:04:26.637Z",
-  "totalAmount": 17900000,
-  "totalContributors": 44,
+  "updatedAt": "2026-10-14T14:20:19.017Z",
+  "totalAmount": 16300000,
+  "totalContributors": 40,
   "contributors": [
     {
       "stt": 1,
@@ -38,10 +38,10 @@
     {
       "stt": 5,
       "name": "Huỳnh Lục Thái Lam",
-      "amount": 200000,
-      "rawAmount": 200,
-      "status": "active",
-      "note": ""
+      "amount": null,
+      "rawAmount": "Đã chuyển trả",
+      "status": "refunded",
+      "note": "Đã chuyển trả"
     },
     {
       "stt": 6,
@@ -134,10 +134,10 @@
     {
       "stt": 17,
       "name": "Nguyễn Cửu Minh Duyên",
-      "amount": 200000,
-      "rawAmount": 200,
-      "status": "active",
-      "note": ""
+      "amount": null,
+      "rawAmount": "Đã chuyển trả",
+      "status": "refunded",
+      "note": "Đã chuyển trả"
     },
     {
       "stt": 18,
@@ -166,10 +166,10 @@
     {
       "stt": 21,
       "name": "Nguyễn Thái An",
-      "amount": 700000,
-      "rawAmount": 700,
-      "status": "active",
-      "note": ""
+      "amount": null,
+      "rawAmount": "Đã chuyển trả",
+      "status": "refunded",
+      "note": "Đã chuyển trả"
     },
     {
       "stt": 22,
@@ -214,10 +214,10 @@
     {
       "stt": 27,
       "name": "Nguyễn Thị Ngọc Sang",
-      "amount": 500000,
-      "rawAmount": 500,
-      "status": "active",
-      "note": ""
+      "amount": null,
+      "rawAmount": "Đã chuyển trả",
+      "status": "refunded",
+      "note": "Đã chuyển trả"
     },
     {
       "stt": 28,
